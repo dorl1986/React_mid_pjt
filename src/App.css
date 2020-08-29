@@ -1,0 +1,40 @@
+.app-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+#app-users, #user-items, #new-user-box {
+	width: 45%;
+}
+#user-items {
+	display: none;
+}
+.app-card {
+	border: 2px solid;
+	margin-bottom: 20px;
+	padding: 20px;
+	position: relative;
+}
+#new-user-box {
+	display: none;
+}
+.new-item-box {
+	display: none;
+}
+.user-items-title-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.user-items-title-block h2 {
+	margin: 0;
+}
+input[type="button"] {
+    display: inline-block;
+    background: #d8ba26;
+    padding: 5px 20px;
+    border: 0;
+    margin: 0 4px;
+	font: inherit;
+	cursor: pointer;
+}

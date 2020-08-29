@@ -1,0 +1,31 @@
+.user-container.todos-uncompleted {
+	border-color: red;
+}
+.user-container.todos-completed {
+	border-color: green;
+}
+.user-field {
+	margin-bottom: 10px;
+}
+.user-field label {
+	width: 80px;
+	display: inline-block;
+	cursor: pointer;
+}
+.other-data-trigger {
+    display: inline-block;
+    background: #ddd;
+    padding: 5px 20px;
+}
+.other-data-wrap {
+	display: none;
+	margin-top: 10px;
+    border: 1px solid;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.user-actions {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+}

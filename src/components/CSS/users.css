@@ -1,0 +1,15 @@
+.app-users-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.search-users {
+	margin-right: 20px;
+}
+.search-users label {
+	margin-right: 10px;
+}
+.user-container.selected-user {
+	background: orange;
+}
